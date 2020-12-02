@@ -26,6 +26,8 @@ namespace Lab4_2
 				case "2":
 				case "3":
 				case "4":
+					Minus(A, B);
+					break;
 				case "5":
 				case "6":
 				default:
@@ -33,5 +35,7 @@ namespace Lab4_2
 					break;
 			}
 		}
+
+		static void Minus(double a, double b) => Console.WriteLine(a - b);
 	}
 }
