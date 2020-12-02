@@ -46,7 +46,7 @@ namespace Lab4_2
 			}
 		}
 
-		tatic void InputA(string input)
+		static void InputA(string input)
 		{
 			try
 			{
