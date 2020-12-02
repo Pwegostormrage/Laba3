@@ -28,10 +28,14 @@ namespace Lab4_2
 				case "4":
 				case "5":
 				case "6":
+					Divide(A, B);
+					break;
 				default:
 					Console.WriteLine("Unrecognized command.");
 					break;
 			}
 		}
+
+		static void Divide(double a, double b) => Console.WriteLine(a / b);
 	}
 }
