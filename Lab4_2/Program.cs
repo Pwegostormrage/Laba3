@@ -26,6 +26,8 @@ namespace Lab4_2
 					InputA(Console.ReadLine());
 					break;
 				case "2":
+					InputB(Console.ReadLine());
+					break;
 				case "3":
 				case "4":
 				case "5":
@@ -41,6 +43,18 @@ namespace Lab4_2
 			try
 			{
 				A = double.Parse(input);
+			}
+			catch (Exception)
+			{
+				Console.WriteLine("Please type in a number.");
+			}
+		}
+
+		static void InputB(string input)
+		{
+			try
+			{
+				B = double.Parse(input);
 			}
 			catch (Exception)
 			{
