@@ -70,12 +70,24 @@ namespace Lab4_2
 			}
 		}
 
-		static void Plus(double a, double b) => Console.WriteLine(a + b);
+		static void Plus(double a, double b)
+		{
+			
+		}
 
-		static void Minus(double a, double b) => Console.WriteLine(a - b);
+		static void Minus(double a, double b)
+        {
 
-		static void Multiply(double a, double b) => Console.WriteLine(a * b);
+        }
 
-		static void Divide(double a, double b) => Console.WriteLine(a / b);
+		static void Multiply(double a, double b)
+        {
+		
+        }
+
+		static void Divide(double a, double b)
+        {
+		
+        }
 	}
 }
