@@ -77,7 +77,7 @@ namespace Lab4_2
 
 		static void Minus(double a, double b)
 		{
-			
+			Console.WriteLine(a - b);
 		}
 		static void Multiply(double a, double b)
 		{
