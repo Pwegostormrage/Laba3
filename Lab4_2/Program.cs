@@ -81,7 +81,7 @@ namespace Lab4_2
 		}
 		static void Multiply(double a, double b)
 		{
-			
+			Console.WriteLine(a * b);
 		}
 
 		static void Divide(double a, double b)
